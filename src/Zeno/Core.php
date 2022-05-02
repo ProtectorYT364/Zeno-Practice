@@ -90,7 +90,7 @@ class Core extends PluginBase implements Listener {
         $this->getServer()->loadWorld("hivesumo");
     }
 
-    public function onDisable() {
+    public function onDisable():void {
         foreach($this->getServer()->getOnlinePlayers() as $players) {
             $players->kick("§aServer restart", false);
         }
