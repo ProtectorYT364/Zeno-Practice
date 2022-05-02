@@ -1,0 +1,5 @@
+name: ZenoPractice
+author: ReVape
+version: 1.0.0
+main: Zeno\Core
+api: 4.0.0
